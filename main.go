@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	bluetooth "github.com/qcasey/MDroid-Bluetooth"
+	//bluetooth "github.com/qcasey/MDroid-Bluetooth"
 	"github.com/qcasey/MDroid-Core-Public/db"
 	"github.com/qcasey/MDroid-Core-Public/mqtt"
 	"github.com/qcasey/MDroid-Core-Public/mserial"
@@ -30,15 +30,15 @@ func main() {
 	// TODO: More modular handling of modules
 	mserial.Mod.Setup(configMap)
 	mserial.Mod.SetRoutes(router)
-	bluetooth.Mod.Setup(configMap)
-	bluetooth.Mod.SetRoutes(router)
+	//bluetooth.Mod.Setup(configMap)
+	//bluetooth.Mod.SetRoutes(router)
 	pybus.Mod.Setup(configMap)
 	pybus.Mod.SetRoutes(router)
 	db.Mod.Setup(configMap)
 	mqtt.Mod.Setup(configMap)
 
 	// Connect bluetooth device on startup
-	bluetooth.Connect()
+	//bluetooth.Connect()
 
 	Start(router)
 }
