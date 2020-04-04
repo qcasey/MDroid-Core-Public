@@ -36,8 +36,10 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
-        name: "Continuous Release"
-        tag_name: "Continuous Release"
+        name: Continuous Release
+        #tag_name: Continuous Release
         files: MDroid-Core
+        draft: false
+        prerelease: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
