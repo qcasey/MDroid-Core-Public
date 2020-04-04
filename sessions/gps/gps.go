@@ -15,7 +15,7 @@ import (
 	"github.com/qcasey/MDroid-Core-Public/db"
 	"github.com/qcasey/MDroid-Core-Public/format/response"
 	"github.com/rs/zerolog/log"
-	"qcasey/MDroid-Core-Public/mqtt"
+	"github.com/qcasey/MDroid-Core-Public/mqtt"
 )
 
 // Location contains GPS meta data and other Mod information
