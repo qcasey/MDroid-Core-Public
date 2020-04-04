@@ -39,3 +39,5 @@ jobs:
         name: "Continuous Release"
         tag_name: "Continuous Release"
         files: MDroid-Core
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}:  
