@@ -31,7 +31,7 @@ jobs:
         fi
 
     - name: Build
-      run: go build -v .
+      run: go build -o MDroid-Core -v .
       
     - name: Release
       uses: softprops/action-gh-release@v1
