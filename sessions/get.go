@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/qcasey/MDroid-Core/format/response"
+	"github.com/qcasey/MDroid-Core-Public/format/response"
 	"github.com/rs/zerolog/log"
 )
 

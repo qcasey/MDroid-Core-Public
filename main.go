@@ -3,12 +3,12 @@ package main
 import (
 	"github.com/gorilla/mux"
 	bluetooth "github.com/qcasey/MDroid-Bluetooth"
-	"github.com/qcasey/MDroid-Core/db"
-	"github.com/qcasey/MDroid-Core/mqtt"
-	"github.com/qcasey/MDroid-Core/mserial"
-	"github.com/qcasey/MDroid-Core/pybus"
-	"github.com/qcasey/MDroid-Core/sessions/gps"
-	"github.com/qcasey/MDroid-Core/sessions/system"
+	"github.com/qcasey/MDroid-Core-Public/db"
+	"github.com/qcasey/MDroid-Core-Public/mqtt"
+	"github.com/qcasey/MDroid-Core-Public/mserial"
+	"github.com/qcasey/MDroid-Core-Public/pybus"
+	"github.com/qcasey/MDroid-Core-Public/sessions/gps"
+	"github.com/qcasey/MDroid-Core-Public/sessions/system"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/qcasey/MDroid-Core/format/response"
+	"github.com/qcasey/MDroid-Core-Public/format/response"
 )
 
 // Measurement contains a simple X,Y,Z output from the IMU

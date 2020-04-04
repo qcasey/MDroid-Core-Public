@@ -13,8 +13,8 @@ import (
 	"github.com/MrDoctorKovacic/MDroid-Core/mqtt"
 	"github.com/bradfitz/latlong"
 	"github.com/gorilla/mux"
-	"github.com/qcasey/MDroid-Core/db"
-	"github.com/qcasey/MDroid-Core/format/response"
+	"github.com/qcasey/MDroid-Core-Public/db"
+	"github.com/qcasey/MDroid-Core-Public/format/response"
 	"github.com/rs/zerolog/log"
 )
 

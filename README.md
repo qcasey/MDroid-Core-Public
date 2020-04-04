@@ -23,7 +23,7 @@ I wanted a hub to ingest different kinds of data from sources on my car, as well
 * Pipelines data to one location that can be reliably queried, using raw JSON or GraphQL.
 * Stores persistent settings for other machines on the network.
 * Can lower windows, open trunk, turn on hazards remotely, etc by mapping queries to the [BMW K-Bus](https://github.com/qcasey/pyBus)).
-* It's written in Go, runs on OpenWRT ARM boards in the MUSL compiler. Try it, [the MUSL bin is cross-compiled.](https://github.com/qcasey/MDroid-Core/blob/master/bin/MDroid-Core-MUSL)
+* It's written in Go, runs on OpenWRT ARM boards in the MUSL compiler. Try it, [the MUSL bin is cross-compiled.](https://github.com/qcasey/MDroid-Core-Public/blob/master/bin/MDroid-Core-MUSL)
 
 ![GraphQL](https://quinncasey.com/wp-content/uploads/2019/11/graphql.png "GraphQL")
 
@@ -35,7 +35,7 @@ I wanted a hub to ingest different kinds of data from sources on my car, as well
 
 Having [InfluxDB & the rest of the TICK stack](https://www.influxdata.com/blog/running-the-tick-stack-on-a-raspberry-pi/) is recommended, although a neutered version will run fine without it.
 
-```go get github.com/qcasey/MDroid-Core/```
+```go get github.com/qcasey/MDroid-Core-Public/```
 
 ## Usage
 

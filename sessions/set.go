@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/qcasey/MDroid-Core/db"
-	"github.com/qcasey/MDroid-Core/format"
-	"github.com/qcasey/MDroid-Core/format/response"
-	"github.com/qcasey/MDroid-Core/mqtt"
-	"github.com/qcasey/MDroid-Core/sessions/gps"
+	"github.com/qcasey/MDroid-Core-Public/db"
+	"github.com/qcasey/MDroid-Core-Public/format"
+	"github.com/qcasey/MDroid-Core-Public/format/response"
+	"github.com/qcasey/MDroid-Core-Public/mqtt"
+	"github.com/qcasey/MDroid-Core-Public/sessions/gps"
 	"github.com/rs/zerolog/log"
 )
 

@@ -5,12 +5,12 @@ import (
 	"strconv"
 
 	bluetooth "github.com/qcasey/MDroid-Bluetooth"
-	"github.com/qcasey/MDroid-Core/format"
-	"github.com/qcasey/MDroid-Core/sessions"
-	"github.com/qcasey/MDroid-Core/sessions/gps"
+	"github.com/qcasey/MDroid-Core-Public/format"
+	"github.com/qcasey/MDroid-Core-Public/sessions"
+	"github.com/qcasey/MDroid-Core-Public/sessions/gps"
 	"github.com/rs/zerolog/log"
 
-	"github.com/qcasey/MDroid-Core/settings"
+	"github.com/qcasey/MDroid-Core-Public/settings"
 )
 
 func setupHooks() {

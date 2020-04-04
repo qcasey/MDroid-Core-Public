@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/gorilla/mux"
-	"github.com/qcasey/MDroid-Core/format"
-	"github.com/qcasey/MDroid-Core/format/response"
+	"github.com/qcasey/MDroid-Core-Public/format"
+	"github.com/qcasey/MDroid-Core-Public/format/response"
 	"github.com/rs/zerolog/log"
 	"github.com/tarm/serial"
 )

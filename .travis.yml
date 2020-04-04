@@ -1,0 +1,26 @@
+language: go
+
+go:
+- 1.13
+
+before_install:
+  - go get -u -v "github.com/gorilla/mux"
+  - go get -u -v "github.com/parnurzeal/gorequest"
+  - go get -u -v "github.com/tarm/serial"
+
+install:
+  - go get -t -v ./...
+
+notifications:
+  email:
+    recipients: quinn@quinncasey.com
+    on_success: change
+    on_failure: always
+
+env:
+  - GOOS=linux CGO=1
+  - GOOS=linux CGO=0
+  - GOOS=linux GOARCH=arm
+  - GOOS=linux GOARCH=mips
+  - GOOS=linux GOARCH=mipsle
+  - GOOS=windows GOARCH=386
