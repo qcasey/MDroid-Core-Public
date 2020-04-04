@@ -36,4 +36,5 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
+        tag_name: "Continuous Release"
         files: MDroid-Core
