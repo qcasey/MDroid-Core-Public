@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/MrDoctorKovacic/MDroid-Core/mqtt"
+	"qcasey/MDroid-Core-Public/mqtt"
 	"github.com/qcasey/MDroid-Core-Public/format"
 	"github.com/qcasey/MDroid-Core-Public/format/response"
 	"github.com/rs/zerolog/log"
