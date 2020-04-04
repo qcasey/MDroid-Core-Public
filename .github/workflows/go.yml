@@ -37,7 +37,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         name: Continuous Release
-        tag_name: CR
+        tag_name: MDroid-Core
         files: MDroid-Core-x86
         draft: false
         prerelease: true
